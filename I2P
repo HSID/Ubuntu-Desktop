@@ -1,0 +1,14 @@
+I2P is short for IP-to-Person which is a concept that letting the centralized devices know exactly which IP is corresponding to which person.
+
+Since all devices can be networked and addressed, why we still need some ad-hoc-style networking technologies like bluetooth, zigbee, WiFi-direct for device-to-device communication? Can use the well-used network architecture to take place of all this technologies? (This is the main question that I am trying to anwser)
+
+Difference from I2I (IP-to-ID):
+	I2I still cannot solve the problem throughly since single person may use different ID for different website and the I2I is not a strong binding.
+
+A way to change the communication interface:
+	Human-Computer-Interface keeps changing, however, the communication interface still remains the old-fashion. (Think about the end-to-end communication and one-hop networking).
+
+Potential Impact:
+	Advertisement Industry: More accurate advertisement delivery.
+
+

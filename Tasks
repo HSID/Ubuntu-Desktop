@@ -1,0 +1,176 @@
+Wearable sensing task load balancing
+
+Wearable device personal networking fiercing
+
+
+addressing overhead, encode overhead
+Time-space combined multiplexing access control
+cognitive radio networks
+resource dynamic bargin
+redundancy and efficiency
+
+Data center networks - plenty of loops to improve robust
+
+Energy efficient mobile sensing  adaptive sampling rate
+
+combine localization methods to solve the cocktail party problem.
+
+How to make sure that what I am connecting or communicating to is what I want?
+
+How to dynamically use the channel dynamics to do spatial-temporal-combined multiplexing?
+
+Use video to learning the dynamics of wireless channel?
+
+In IP, packets are all discarded if they fail the checksum. Is there some methods else can make it more efficient? Just error detection.
+
+Wireless network fencing problem.
+
+Localization Doppler shift
+
+Cocktail party problem
+
+How to do cooling for mobile high-performance devices without the help of fans?
+
+How to hack the fingerprinting detection sensor?
+
+Is that possible through some ways we can make our mobile devices sensed lighter?
+
+New ways to charge mobile devices.
+
+Mobile sensor based user-experience evaluation. (a standard all-purpose general evaluation framework)
+
+How to use combination of multiple mobile devices to enble much better multi-task user-experience?
+
+Incooperating relationship into communication network (addressing, routing, ...) compare to social networks (functional defined groups) (access control fairness granuality) Computation in the air or within the network Context-based multiple access network  If this is gonna work, it may also impact the indoor localization methods through its hierarchical structure.
+Natural forwarding/routing/addressing/connection. Plugin-and-use wireless networking.
+In traditional mobile networks like cellular networks, the mobility is a big problem considering the mobile node are moving and we need to assign different connections and network addresses to that node to make consistent connections and data communications.
+WiFi handover is a big problem in WLAN since connections and addresses all need to be setup when doing handover.
+****How to find the relation between context and the device address in the network?
+Sensing-based networking project. really new!
+
+Context-based routing v.s. addressing scheme and traditional routing protocol based routing.
+
+Home wireless data center. Emergent centralized data storage system like WiFi hotspot-attached large size hard disk. This envision a new architecture for home computing system.
+
+The aim of information-centric networking is to develop a network architecture that is better suited for efficiently accessing and distributing content and that better cope with disconnections, disruptions, and flash crowd effects in the communication service.
+
+Blockchain or distributed storage and auction system for mobile devices.
+
+Information storage in the network. Caching with queues in routers.
+
+Full-screen mobile devices related application and user-interface.
+
+Improve mobile phone calling experience/privacy
+
+In sensing, there are always periodic events that nodes need to perform to active sensing the event. That is energy consuming.
+
+Context structural database construction and searching.
+
+Different wireless communication technology load-balancing and offloading.
+
+Suppose we have the 监控系统 how we will be able to send message to anyone that we see in the system? How we can communicate with the device we see? Vision-based routing.
+
+
+Incoorperate machine learning with traditional routing protocols like OSFP since in traditional networking, link-state metric is very difficult and dynamic to decide. How to compute the edge weight for the network graph. Machine learning-based routing protocol, can deal highly dynamic network conditions?
+Enable WLAN ad hoc mode. routing between nodes in the home.
+
+Mobile assistent, record the information you need unconsciously.
+
+Ideally, we want the movement of the mobile device to be transparent to the remote application.
+
+How do a router or a switch do table entry searching? How can the search algorithm scale?
+
+Today's network IP addressing system is high inefficient considering the address space efficiency and the potential entries in a network router. When considering the routing algorithm with this addressing system, it is rather confused and complex.
+
+In traditional routing, for each router or switch, it need to figure out on which port it should forward a specific packet or frame, to build such a table is effort-consuming and highly depend on the scale of the network which will impact the scalability of the network. How can we change this situation?
+
+In addition to the need to accommodate scalable routing and addressing, some of the other wish list items for IPv6 were:
+	support for real-time services
+	security support
+	autoconfiguration (i.e., the ability of hosts to automatically configure themselves with such information as their own IP address and domain name)
+	enhanced routing functionality, including support for mobile hosts.
+
+Why IP tunnel is tried to be avoided in IP multicast in PIM?
+
+Note that PIM is very much bound up with the Internet Protocol -- it is not protocol independent in terms of network-layer protocols. Why??????
+
+Scalability vs efficiency!!!!
+
+How can it help when a computer both connects to a wifi interface and a ethernet LAN?
+
+What is the exact goal of MPLS? What is the main problem with IP addressing?
+
+Difference between ad hoc network and centralized network.? Can we dynamically decide centralized network structure which is also different from the traditional ad hoc network?
+
+Filling the gap between physically or naturally network with machine network.
+
+How to help two people meet in a building without the unstable indoor localization technique?
+
+Different from traditional networks, that network manager need to set up the connection between different devices, can we let the network learn the address of the receiver or the connection between different devices?
+
+
+Why wireless networks need to do association which is emulating the traditional wired networks?
+
+In enterprise WLAN, why we only use one AP to do service for one client? When the frame is lost and need to be retransmitted, we should not stick to that AP anymore, we could try to send the frame using another adjscent AP.
+
+In an router in the Internet, when we can foresee that the queue is to be full and the incoming packets are going to be dropped, can we share some packets with the adjscent routers so that we can hold much more incoming packets?
+
+
+How we can use additional cheap sensors to sensing network hardware failure?
+
+How to prevent IP prefix hijacking? Man in the middle attack?
+
+What if the backbone network is also wireless? In the future, maybe all network services are provided by Cellular network operators, and all local networks will be wireless networks.
+
+Different route will have different transmission timeouts, how is it possible to implement in the traditional Internet?
+
+Can we do better than packet switching? Currently, is packet switching still the best way to delivering data between different devices?
+
+Retransmission mechanisms or recovery procedures in IP are apparent to the lower layers and without regard to the details in the routes, is there a better way to do this?
+
+How to build a efficient wireless gateway for different wireless communication technologies? Can we use the smartphone or other mobile devices with multiple wireless interfaces to do a job like the gateway?
+
+Is MAC addressing and IP addressing routing the right way for mobile wireless networks? No fixed addresses.
+
+Intelligent Wireless Access Point. AP with multiple sensors so that they can deal well with connection, forwarding problems like handover etc.. (Smart AP project) Wireless Access Points with different kind of sensors which can interact with the sensors in different mobile devices so that can perform a different and efficient wireless networking.
+
+Wireless communication is basically a mobile sensing technique. The problem is that the sensing is not identical, this sensing is not associated with device-wide distinction information, which is a public media information.
+
+While the channels change across frequencies, the underlying paths stay the same. In other words set of four-tuples is a natural representation of signal paths that is frequency-invariant.
+
+Multiple wireless interface for one single station, what we can do?
+
+Can we change the traditional usage of keys? Different keys for different rooms, closets, etc.
+
+How to design a new addressing and routing system for mobile devices? Especially dealing with the handover delay problem.
+
+How to design an addressing system for other interface like sound, gesture, light, etc.
+
+Check out the difficulties to implement a personal network through via-body communication. Via-body communication for other goals like synchronization and detection of the same person.
+
+Proximity detection in a remote way. (Can WiFi APs detect the proximity of two devices?)
+
+
+
+
+===========*****===========
+One important thing to notice is that although the spanning tree algorithm is able to reconfigure the spanning tree whenever a bridge fails, it is not able to forward frames over alternative paths for the sake of routing around a congested bridge.
+
+
+===========******=================================
+1. What is different between the traditional networks and networks with nodes having multi-modal sensing capability?
+From different network layers' perspective (TCP/IP):
+1) Physical layer especially for wireless PHY like WiFi/Bluetooth/Zigbee/Wimax/5G
+In traditional wireless PHY, the dynamics of the physical environment is the enemy to the communication technology and many wireless communication technologies are designed make the dynamics transparent to coding/decoding, multiple access, modulation, etc.
+Now we have sensors who can sense detailed dynamics of the environment, and there are many papers trying to explore the sensing ability of different sensors like motion sensors, location sensors and even wireless characteristics like CSI. What I want to do go beyond is how to use this results from sensing to assist the PHY design.
+2) Link layer
+3) Internet layer
+4) Transport layer
+5) Application layer
+
+===========********=========================
+Home Wireless devices load-balancing and relay
+Home wireless devices Multi-node joint MIMO
+Home wireless devices joint-localization
+
+ 

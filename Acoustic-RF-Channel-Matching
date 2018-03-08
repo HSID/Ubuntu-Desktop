@@ -1,0 +1,13 @@
+-Decide the device on the same person
+	Totally done in RF space: deciding wether or not two devices enjoy the same kind of channel.
+	When the person talks, the acoustic channel should be similar with the RF channel.
+
+-Content-based-advertisement or information providing service
+	Why not use the personal mobile device to do provide this service? Personal device may not have the global vision of all the people in the coverage area.
+	Reason 1: for multicast. If everyone use a personal device to provide this kind of service, there is no way for the wifi router to do multicast, since each device in the group will contact with the AP individually and without the knowledge with anyone else in the group.
+
+-Solving the cocktail party problem
+	There is a additional dimension which is the personal devices channel state information.
+
+
+

@@ -1,0 +1,56 @@
+****** On Distributed Communication Networks -- Paul Baran 1962 ******
+
+For maximize the survivability of the communcation networks, we shall turn to consider the properties, problems, and hopes of building communication networks that are as "distributed" as possible.
+
+There is an inceasingly repeated statement made that one day we will require more capacity for data transmission than needed for voice.
+
+New digital computer techniques using redundancy make cheap unreliable links potentially usable. Such a system should economically permit switching of very short blocks of data from a large number of users simultaneously with intermittent large volumes among a smaller set of points.
+
+
+****** Brief History of the Internet ******
+
+The Internet is at once a world-wide broadcasting capability, a mechanism for information dissemination, and a medium for collaboration and interaction between individuals and their computers without regard for geographic location.
+
+The first recorded description of the social interactions that could be enabled through networking was a series of memos written by J.C.R.Licklider of MIT in August 1962 discussing his "Galactic Network" concept. He envisioned a globally interconnected set of computers through which everyone could quickly access data and programs from any site.
+
+The original ARPANET grew into the Internet. Internet was based on the idea that there would be multiple independent networks of rather arbitrary design, beginning with the ARPANET as the pioneering packet switching network. The Internet as we now know it embodies a key underlying technical idea, namely that of open architecture networking.
+
+Four ground rules were critical to Kahn's early thinking on open architectural networking:
+- Each distinct network would have to stand on its own and no internal changes could be required to any such network to connect it to the Internet.
+- Communications would be on a best effort basis. If a packet didn't make it to the final destination, it would shortly be retransmitted from the source.
+- Black boxes would be used to connect the networks; these would later be called gateways and routers. There would be no information retained by the gateways about the individual flows of packet passing through them, there by keeping them simple and avoiding complicated adaptation and recovery from failure modes.
+- There would be no global control at the operation level.
+
+A major initial motivation for both the ARPANET and the Internet was resource sharing - for example allowing users on the packet radio networks to access the time sharing systems attached to the ARPANET. Connecting the two together was far more economical that duplicating these very expensive computers.
+
+Electronic mail has probably had the most significant impact of the innocations from that era. Email provided a new model of how people could communicate with each other, and changed the nature of collaboration, first in the building of the Internet itself and later for much of society.
+
+A key concept of the Internet is that it was not designed for just one application, but as a general infrastructure on which new applications could be conceived, as illustrated later by the emergence of the World Wide Web. It is the general purpose nature of the service provided by TCP and IP that makes this possible.
+
+Widespread development of LANS, PCs and workstations in the 1980s allowed the nascent Internet to flourish. 
+
+To make it easy for people to use the network, hosts were assigned names, so that it was not necessary to remember the numeric addresses. The Domain Name System (DNS) was invented. The DNS permitted a scalable distributed mechanism for resolving hierarchical host names into a Internet address.
+
+Looking back, the strategy of incorporating Internet protocols into a supported operating system for the research community was one of the key elements in the successful widespread adoption of the Internet.
+
+****** A Protocol for Packet Network Intercommuncation ******
+
+A packet communication network includes a transportation mechanism for delivering data between computers or between computers and terminals.
+
+To make the data meaningful, computers and terminals share a common protocol.
+
+The IP protocol is a protocol design and philosophy that supports the sharing of resources that exist in different packet switching networks.
+
+Individual packet switching networks may differ in their implementations as follows:
+- Different addressing systems.
+- Different maximum data size.
+- Different time delays.
+- Within each network, communication may be disrupted due to unrecoverable mutation of the data or missing data. End-to-end restoration procedures are desirable.
+- Status information, routing, fault detection, and isolation are typically different in each network. Various kinds of coordination must be invoked between the communicating networks.
+
+It is conceivable that one might desire the gateway to perform the reassembly to simplify the task of the destination host and/or to take advantage of a larger packet size. We take the position that GATEWAYs should not perform this function since GATEWAY reassembly can lead to serious buffering problems, potential deadlocks, the necessity for all fragments of a packet to pass through the same GATEWAY, and increased delay in transmission. Furthermore, it is not sufficient for the GATEWAYs to provide this function since the final GATEWAY may also have to fragment a packet for transmission. Thus the destination host must be prepared to do this task.
+
+Within a host we assume the existence of a transmission control program (TCP) which handles the transmission and acceptance of messages on behalf of the processes it serves. We allow the TCP to break up messages into segments because the destination may restrict the amount of data that may arrive, because the local network may limit the maximum transmission size, or because the TCP may need to share its resources among many processes concurrently.
+
+
+
