@@ -150,6 +150,7 @@ Check out the difficulties to implement a personal network through via-body comm
 
 Proximity detection in a remote way. (Can WiFi APs detect the proximity of two devices?)
 
+The current channel estimation technique for Multi-antenna systems is estimating the channels between different antenna pairs one-by-one which is quite time consuming, can we improve this by relaxing the one-by-one channel estimation scheme? Finding a scalable channel estimation scheme for MIMO.
 
 
 
