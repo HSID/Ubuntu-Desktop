@@ -152,6 +152,8 @@ Proximity detection in a remote way. (Can WiFi APs detect the proximity of two d
 
 The current channel estimation technique for Multi-antenna systems is estimating the channels between different antenna pairs one-by-one which is quite time consuming, can we improve this by relaxing the one-by-one channel estimation scheme? Finding a scalable channel estimation scheme for MIMO.
 
+Personal voice assistant. The voice assistant is highly tighted with the user, the voice will only be understand by the user which makes use of the hearing distinctions between different people.
+
 
 
 ===========*****===========
