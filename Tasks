@@ -13,8 +13,7 @@ Data center networks - plenty of loops to improve robust
 
 Energy efficient mobile sensing  adaptive sampling rate
 
-combine localization methods to solve the cocktail party problem.
-
+combine localization methods to solve the cocktail party problem.  
 How to make sure that what I am connecting or communicating to is what I want?
 
 How to dynamically use the channel dynamics to do spatial-temporal-combined multiplexing?
@@ -178,6 +177,19 @@ How to implement the real full-screen device? Can touch-screen perform some task
 
 What if every write the contact information on the shirts? How to publicly inform others the contact info?
 
+The key advantage of NFC is that it eliminates the need for cumbersome network configuration efforts required to set up a communication channel using alternatives such as Bluetooth or WiFi.
+
+Why localization in the geometric space? For some senario, localization should be performed in other signal space like acoustic.
+
+Why not use csi directly as physical addresses for devices?
+
+WiFi frequency hopping?
+
+Make the second screen using a cheap reflector?
+
+Smart-home cloud, all smart-home devices shares computational resources and seemlessly communicate with each other.
+
+Video recording with mic beamforming to focus on the voice of the interested target.
 
 
 ===========*****===========
